@@ -25,7 +25,7 @@ RUN npm install \
 # COPY /src /app/
 COPY . .
 
-EXPOSE 5000
+EXPOSE 8000
 
 # Ejecuta la aplicación
 # CMD ["node", "src/index.js"]
@@ -39,4 +39,3 @@ CMD ["npm", "start"]
 # Definir el punto de entrada com a script
 # ENTRYPOINT [ "executable" ]
 
---
